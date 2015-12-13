@@ -17,9 +17,14 @@ public:
 	wstring surname;
 	wstring patronymic;
 	wstring street;
-	int house_num;
-	int housing_num;
-	int apartment_num;
+	int house_num = -1;
+	int housing_num = -1;
+	int apartment_num = -1;
+		
+		bool isHumanFiledsAreNOTEmpty() 
+		{
+			return (this->apartment_num != -1);
+		};
 
 
 	wstring &operator[](HumanFields key) //перегрузка []     

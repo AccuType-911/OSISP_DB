@@ -1,20 +1,9 @@
-﻿Сборка начата 22.11.2015 20:04:32.
-     1>Проект "D:\Мои Проги\С#\OSiSP_DB\DllDAO\DllDAO.Windows\DllDAO.Windows.vcxproj" в узле 2 (целевые объекты Build).
-     1>ClCompile:
-         D:\WinPrograms\VC\bin\CL.exe /c /I"D:\Мои Проги\С#\OSiSP_DB\DllDAO\DllDAO.Windows\\" /I"Generated Files\\" /IDebug\ /I"D:\Мои Проги\С#\OSiSP_DB\DllDAO\DllDAO.Shared\\" /ZI /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _WINDLL /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Debug\DllDAO.Windows.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "D:\Мои Проги\С#\OSiSP_DB\DllDAO\DllDAO.Shared\pch.cpp"
-         pch.cpp
-         D:\WinPrograms\VC\bin\CL.exe /c /I"D:\Мои Проги\С#\OSiSP_DB\DllDAO\DllDAO.Windows\\" /I"Generated Files\\" /IDebug\ /I"D:\Мои Проги\С#\OSiSP_DB\DllDAO\DllDAO.Shared\\" /ZI /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _WINDLL /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\DllDAO.Windows.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "D:\Мои Проги\С#\OSiSP_DB\DllDAO\DllDAO.Shared\DllDAO.cpp" "D:\Мои Проги\С#\OSiSP_DB\DllDAO\DllDAO.Shared\dllmain.cpp"
-         DllDAO.cpp
-         dllmain.cpp
-       Link:
-         D:\WinPrograms\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Мои Проги\С#\OSiSP_DB\Debug\DllDAO.Windows\DllDAO.Windows.dll" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"D:\Мои Проги\С#\OSiSP_DB\Debug\DllDAO.Windows\DllDAO.Windows.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"D:\Мои Проги\С#\OSiSP_DB\Debug\DllDAO.Windows\DllDAO.winmd" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Мои Проги\С#\OSiSP_DB\Debug\DllDAO.Windows\DllDAO.Windows.lib" /MACHINE:X86 /DLL Debug\DllDAO.obj
-         Debug\dllmain.obj
-         Debug\pch.obj
-         DllDAO.Windows.vcxproj -> D:\Мои Проги\С#\OSiSP_DB\Debug\DllDAO.Windows\DllDAO.Windows.dll
-       _GenerateProjectPriFileCore:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x64\MakePri.exe New -ProjectRoot "D:\Мои Проги\С#\OSiSP_DB\DllDAO\DllDAO.Windows\\" -ConfigXml Debug\priconfig.xml -OutputFile "D:\Мои Проги\С#\OSiSP_DB\Debug\DllDAO.Windows\DllDAO.pri" -IndexName DllDAO -Verbose -Overwrite  
-     1>Сборка проекта "D:\Мои Проги\С#\OSiSP_DB\DllDAO\DllDAO.Windows\DllDAO.Windows.vcxproj" завершена (целевые объекты Build).
+﻿Сборка начата 12.12.2015 22:03:53.
+     1>Проект "C:\Users\Dmitry\Documents\GitHub\OSISP_DB\DllDAO\DllDAO.Windows\DllDAO.Windows.vcxproj" в узле 2 (целевые объекты Build).
+     1>Link:
+         DllDAO.Windows.vcxproj -> C:\Users\Dmitry\Documents\GitHub\OSISP_DB\Debug\DllDAO.Windows\DllDAO.Windows.dll
+     1>Сборка проекта "C:\Users\Dmitry\Documents\GitHub\OSISP_DB\DllDAO\DllDAO.Windows\DllDAO.Windows.vcxproj" завершена (целевые объекты Build).
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:05.72
+Затраченное время: 00:00:00.31

@@ -19,19 +19,21 @@ Parser::iterator Parser::get_iterator()
 	HANDLE hMapFile;
 	wchar_t *pBuf;
 
+	#define READ_BYTES_DEFAULT_COUNT 1;	
+
 	hMapFile = CreateFileMappingW(
 		INVALID_HANDLE_VALUE,    // use paging file
 		NULL,                    // default security
 		PAGE_READWRITE,          // read/write access
 		0,                       // maximum object size (high-order DWORD)
-		BUFFER_SIZE,                // maximum object size (low-order DWORD)
+		0,                // maximum object size (low-order DWORD)
 		this->file_path.c_str());                 // name of mapping object
 
 	if (hMapFile == NULL)
 	{
 		_tprintf(TEXT("Could not create file mapping object (%d).\n"),
 			GetLastError());
-		return;
+		return NULL;
 	}
 
 	Parser::iterator it(hMapFile);

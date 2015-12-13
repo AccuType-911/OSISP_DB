@@ -12,9 +12,10 @@ DAO::~DAO()
 }
 
 
-vector<Human> DAO::find(Human human)
+void/*vector<Human>*/ DAO::find(Human human)
 {
 
+	return ;
 }
 
 void DAO::create_index(wstring field)

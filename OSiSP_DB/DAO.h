@@ -14,7 +14,7 @@ public:
 	DAO(wstring path);
 	virtual ~DAO();
 
-	vector<Human> find(Human human);
+	void /*vector<Human>*/ find(Human human);
 
 private:
 	void create_index(wstring field);

@@ -7,6 +7,8 @@
 #include <io.h>
 #include <fcntl.h>
 #include "Human.h"
+#include "Parser.h"
+
 
 using namespace std;
 
@@ -76,6 +78,41 @@ int wmain(int argc, char* argv[])
 	
 	test_tree();
 
+	//WCHAR ch;
+	//wcin >> ch;
+
+	HANDLE hFile;
+	LPCWSTR pathToFile = L".\\telbase_unicode.txt";
+
+	hFile = CreateFile(pathToFile, GENERIC_READ, FILE_SHARE_READ, NULL,
+		OPEN_EXISTING, 0, NULL);
+
+	if (hFile == INVALID_HANDLE_VALUE)
+	{
+		_tprintf(TEXT("CreateFile failed with %d\n"), GetLastError());
+		return 0;
+	}
+
+	Parser::iterator it = Parser::iterator(hFile);
+	Human *human;
+	
+	/*
+	while (!it.is_end()) 
+	{
+		it++;
+	
+		human = it.getHuman();
+		if (human == NULL) break;
+
+		std::wcout << human->telephone << L";" << human->surname << L"\n";
+	}
+	*/
+	vector<Human *> humans =  it.fetchAllHumansFromFile();
+
+	for (auto attack = humans.begin(); attack != humans.end(); ++attack) 
+	{
+		std::wcout << attack[0]->telephone << L";" << attack[0]->surname << L"\n";
+	}
 
 	WCHAR ch;
 	wcin >> ch;

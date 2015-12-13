@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OSiSP_DB", "OSiSP_DB\OSiSP_DB.vcxproj", "{15C27853-707D-460A-AD0F-71F24FB2C91B}"
 EndProject
@@ -14,11 +14,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllDAO.WindowsPhone", "DllDAO\DllDAO.WindowsPhone\DllDAO.WindowsPhone.vcxproj", "{6E473159-2DCE-44EE-97CC-C0868070C06F}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		DllDAO\DllDAO.Shared\DllDAO.Shared.vcxitems*{6e473159-2dce-44ee-97cc-c0868070c06f}*SharedItemsImports = 4
-		DllDAO\DllDAO.Shared\DllDAO.Shared.vcxitems*{27c06370-28ff-44ff-bf18-3246267ae38e}*SharedItemsImports = 4
-		DllDAO\DllDAO.Shared\DllDAO.Shared.vcxitems*{bae28f89-f7ab-42a4-b8b7-1ead85f803e1}*SharedItemsImports = 9
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
 		Debug|Win32 = Debug|Win32
@@ -66,5 +61,10 @@ Global
 		{BAE28F89-F7AB-42A4-B8B7-1EAD85F803E1} = {7159DEC2-E5A0-45EE-A26C-CEDE0878AA9E}
 		{27C06370-28FF-44FF-BF18-3246267AE38E} = {7159DEC2-E5A0-45EE-A26C-CEDE0878AA9E}
 		{6E473159-2DCE-44EE-97CC-C0868070C06F} = {7159DEC2-E5A0-45EE-A26C-CEDE0878AA9E}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DllDAO\DllDAO.Shared\DllDAO.Shared.vcxitems*{6e473159-2dce-44ee-97cc-c0868070c06f}*SharedItemsImports = 4
+		DllDAO\DllDAO.Shared\DllDAO.Shared.vcxitems*{27c06370-28ff-44ff-bf18-3246267ae38e}*SharedItemsImports = 4
+		DllDAO\DllDAO.Shared\DllDAO.Shared.vcxitems*{bae28f89-f7ab-42a4-b8b7-1ead85f803e1}*SharedItemsImports = 9
 	EndGlobalSection
 EndGlobal
